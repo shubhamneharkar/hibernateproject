@@ -22,17 +22,6 @@ public class Multiplayer {
 	static Scanner sc = new Scanner(System.in);
 	static boolean loop = true;
 
-//	public static void main(String[] args) {
-////		songOperation.addSongs();
-////		songOperation.playList();
-////		songOperation.removeSong();
-////		songOperation.updateSong();
-////		songOperation.playAllSongs();
-////		songOperation.chooseSongToPlay();
-//		songOperation.playRandomSong();
-//		
-//	}
-//}
 
 	public static void main(String[] args) {
 		openConnections();

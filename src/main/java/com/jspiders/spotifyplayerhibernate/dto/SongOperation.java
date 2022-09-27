@@ -48,7 +48,7 @@ public class SongOperation {
 		}
 
 		Random rand = new Random();
-		Long newrandom = rand.nextLong(list.get(list.size()-1));
+		Long newrandom = rand.nextLong(list.get(list.size() - 1));
 		newrandom++;
 //		System.out.println("Newly generated number from list " + newrandom);
 
@@ -176,5 +176,10 @@ public class SongOperation {
 		if (entityManager != null) {
 			entityManager.close();
 		}
+	}
+	
+	//demo function
+	public void show() {
+		
 	}
 }
