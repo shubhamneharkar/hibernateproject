@@ -177,9 +177,5 @@ public class SongOperation {
 			entityManager.close();
 		}
 	}
-//	
-//	//demo function
-//	public void show() {
-//		
-//	}
+
 }
